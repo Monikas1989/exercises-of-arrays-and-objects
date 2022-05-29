@@ -1,7 +1,7 @@
 //Zadanie nr 1
 
-array1 = [2, 5];
-array2 = [3, 7];
+const array1 = [2, 5];
+const array2 = [3, 7];
 
 const mergeArrays = (array1, array2) => {
     return [...array1,
@@ -11,12 +11,13 @@ console.log(mergeArrays(array1, array2));
 
 // Zadanie nr 2
 
+
 const exceptFirst = (firstParameter, ...restParameters) => {
     console.log(`Pierwszy argument: ${firstParameter}`);
     console.log(`Reszta argumentów: ${restParameters}`);
 };
 
-exceptFirst(2, "buty", "zakupy");
+exceptFirst(2, "delfin", "null");
 
 //Zadanie nr 3
 
