@@ -11,13 +11,12 @@ console.log(mergeArrays(array1, array2));
 
 // Zadanie nr 2
 
-
 const exceptFirst = (firstParameter, ...restParameters) => {
-    console.log(`Pierwszy argument: ${firstParameter}`);
-    console.log(`Reszta argumentów: ${restParameters}`);
+    return [...restParameters]
 };
 
-exceptFirst(2, "delfin", "null");
+console.log(exceptFirst(2, "delfin", null));
+
 
 //Zadanie nr 3
 
